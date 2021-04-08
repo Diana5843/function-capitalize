@@ -20,9 +20,9 @@ function capitalize(firstLatter) {
     if (!firstLatter) return firstLatter;
      
     let firstLetterSplit = firstLatter.split(' ');
-        firstLetterSplit = firstLetterSplit.map((word)=>{
-        return word[0].toUpperCase() + word.slice(1, word.lengh);
-    });
+        firstLetterSplit = firstLetterSplit.map((word)=> 
+            word[0].toUpperCase() + word.slice(1, word.lengh));
+    
 
     return firstLetterSplit.join(' ');
     
